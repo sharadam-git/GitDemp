@@ -1,0 +1,12 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 7, Failures: 2, Errors: 0, Skipped: 5, Time elapsed: 1.453 s <<< FAILURE! - in TestSuite
+Academy.HomePage.openBrowser  Time elapsed: 1.315 s  <<< FAILURE!
+java.io.FileNotFoundException: D:\Automation\Workspace1\E2EProjectsrc\main\java\resources\data.properties (The system cannot find the path specified)
+	at Academy.HomePage.openBrowser(HomePage.java:24)
+
+Academy.validateTitle.openBrowser  Time elapsed: 0.016 s  <<< FAILURE!
+java.io.FileNotFoundException: D:\Automation\Workspace1\E2EProjectsrc\main\java\resources\data.properties (The system cannot find the path specified)
+	at Academy.validateTitle.openBrowser(validateTitle.java:25)
+

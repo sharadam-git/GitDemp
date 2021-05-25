@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="19723" started-at="2021-05-21T17:55:18Z" finished-at="2021-05-21T17:55:38Z">
+    <groups>
+    </groups>
+    <test name="login" duration-ms="15690" started-at="2021-05-21T17:55:18Z" finished-at="2021-05-21T17:55:34Z">
+      <class name="Academy.HomePage">
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:Academy.HomePage@6ca18a14]" name="openBrowser" is-config="true" duration-ms="2531" started-at="2021-05-21T23:25:18Z" finished-at="2021-05-21T23:25:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="PASS" signature="basePageNavigate(java.lang.String, java.lang.String)[pri:0, instance:Academy.HomePage@6ca18a14]" name="basePageNavigate" duration-ms="7498" started-at="2021-05-21T23:25:21Z" data-provider="getData" finished-at="2021-05-21T23:25:28Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[sharadbhat47gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[12345]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basePageNavigate -->
+        <test-method status="PASS" signature="basePageNavigate(java.lang.String, java.lang.String)[pri:0, instance:Academy.HomePage@6ca18a14]" name="basePageNavigate" duration-ms="5491" started-at="2021-05-21T23:25:28Z" data-provider="getData" finished-at="2021-05-21T23:25:34Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[nonrestricted]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[34566]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basePageNavigate -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:Academy.HomePage@6ca18a14]" name="closeBrowser" is-config="true" duration-ms="132" started-at="2021-05-21T23:25:34Z" finished-at="2021-05-21T23:25:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- Academy.HomePage -->
+    </test> <!-- login -->
+    <test name="validate test" duration-ms="3999" started-at="2021-05-21T17:55:34Z" finished-at="2021-05-21T17:55:38Z">
+      <class name="Academy.validateTitle">
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:Academy.validateTitle@13bc8645]" name="openBrowser" is-config="true" duration-ms="3704" started-at="2021-05-21T23:25:34Z" finished-at="2021-05-21T23:25:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="PASS" signature="validateText()[pri:0, instance:Academy.validateTitle@13bc8645]" name="validateText" duration-ms="107" started-at="2021-05-21T23:25:38Z" finished-at="2021-05-21T23:25:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateText -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:Academy.validateTitle@13bc8645]" name="closeBrowser" is-config="true" duration-ms="184" started-at="2021-05-21T23:25:38Z" finished-at="2021-05-21T23:25:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- Academy.validateTitle -->
+    </test> <!-- validate test -->
+  </suite> <!-- Suite -->
+</testng-results>
